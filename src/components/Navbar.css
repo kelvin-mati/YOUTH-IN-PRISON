@@ -1,0 +1,108 @@
+.navbar {
+  height: 70px;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.267);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 3;
+}
+.navbar_container {
+  width: var(--container_width);
+  margin: var(--container_margin);
+  height: 100%;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logoImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.menu {
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+.ion-icon {
+  color: red;
+}
+.navlinks {
+  display: flex;
+}
+.navlinks li {
+  padding: 0px 10px;
+  list-style-type: none;
+}
+.links {
+  text-decoration: none;
+  color: #000;
+}
+.links:focus {
+  color: var(--color);
+  font-weight: bold;
+}
+.donate_btn {
+  background-color: var(--color);
+  padding: 13px 16px;
+  border-radius: 20px;
+  outline: none;
+  border: 0px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.donate_btn:hover {
+  background-color: rgba(255, 0, 0, 0.52);
+  transition: 400ms ease-in-out;
+}
+/* NAVBAR RESPONSIVENESS */
+@media screen and (max-width: 576px) {
+  .navbar_container {
+    width: 90%;
+    margin: var(--container_margin);
+    height: 100%;
+  }
+  .logoImage {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .navlinks {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 4.4rem;
+    left: 0px;
+    background-color: #fff;
+    border-right: 1px solid rgba(204, 204, 204, 0.575);
+    height: 100vh;
+    width: 250px;
+    text-align: center;
+    z-index: 3;
+    padding-top: 1.5rem;
+  }
+  .navlinks li {
+    padding: 10px 0px;
+    list-style-type: none;
+    cursor: pointer;
+  }
+
+  .navlinks li:hover {
+    background-color: rgba(128, 128, 128, 0.123);
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+}
+@media screen and (min-width: 1024px) {
+}

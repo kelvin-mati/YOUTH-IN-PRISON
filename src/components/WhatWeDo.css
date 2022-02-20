@@ -1,0 +1,20 @@
+.what_we_do {
+  padding-top: 8rem;
+  padding-bottom: 2.5rem;
+}
+.learn_more_whatwedo_btn {
+  border: none;
+  padding: 15px 17px;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  margin: 3rem 0px;
+  background-color: var(--color);
+}
+
+@media screen and (max-width: 576px) {
+  .what_we_do {
+    padding-top: 2rem;
+  }
+}

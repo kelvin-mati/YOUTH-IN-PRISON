@@ -1,0 +1,29 @@
+.events {
+  background-color: #80808010;
+  padding-bottom: 5rem;
+  padding-top: 1.5rem;
+}
+.event_title {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.event_title p {
+  color: var(--color);
+  padding-bottom: 10px;
+}
+.eventsCard {
+  position: relative;
+  min-height: 400px;
+  max-height: 100%;
+  overflow: scroll;
+}
+.date-box {
+  position: absolute;
+  right: 0px;
+
+  background-color: var(--color);
+
+  padding: 8px;
+  border-bottom-left-radius: 20px;
+  color: #fff;
+}

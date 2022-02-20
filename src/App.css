@@ -1,0 +1,11 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+:root {
+  --container_width: 85%;
+  --container_margin: 0px auto;
+  --color: red;
+}
